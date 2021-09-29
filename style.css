@@ -1,0 +1,15 @@
+div{
+    /*define a largura da caixa*/
+    width: 100px;
+    border: 1px solid red;
+    /*padding é o espaço entre o que está dentro*/
+    /*da caixa e a borda interna da caixa*/
+    padding: 5px;
+    /*margin é o espaço entre as caixas*/
+    margin: 10px;
+    /*border-box definido na box sizing*/
+    /*garante que o tamanho total de nossa caixa*/
+    /*garante a largura absoluta do elemento*/
+    /*incluindo a borda e o padding*/
+    box-sizing: border-box;
+}
